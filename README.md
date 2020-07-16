@@ -16,10 +16,10 @@
 
 ## Contents
 * [SDKs and samples](#sdks-and-samples)
-    * [Python](#python-sdk)
-    * [Node.JS](#nodejs-sdk)
-    * [Java](#java-sdk)
-    * [Mobile](#mobile-sdk)
+    * [Python](#python)
+    * [Node.JS](#nodejs)
+    * [Java](#java)
+    * [Mobile](#mobile)
 * [Device Firmware](#device-firmware)
 * [Command Line Tools](#command-line-tools)
 * [Integration Tools](#integration-tools)
@@ -28,7 +28,7 @@
 
 ## SDKs and samples
 
-### Python SDK
+### Python
 - [Repo with samples](https://github.com/iot-for-all/iotc-python-client)
 - [Releases](https://pypi.org/project/iotc/)
 - [Device Sample](https://github.com/iot-for-all/Iot_Central_Python_Sample)
@@ -38,6 +38,11 @@
 - [Repo with samples](https://github.com/lucadruda/iotc-nodejs-device-client)
 - [Releases](https://www.npmjs.com/package/azure-iotcentral-device-client)
 - [Docs](https://docs.microsoft.com/en-us/azure/iot-central/core/tutorial-connect-device-nodejs)
+
+### Java
+- [Repo](https://github.com/lucadruda/iotc-java-device-client)
+- [Samples](https://github.com/lucadruda/iotc-samples/tree/master/java)
+- [Releases](https://search.maven.org/artifact/com.github.lucadruda/iotc-java-device-client)
 
 ### Mobile
 - [Repo (React Native)](https://github.com/lucadruda/iotc-react-native-device-client)
