@@ -20,6 +20,7 @@
     * [Node.JS](#nodejs)
     * [Java](#java)
     * [Mobile](#mobile)
+* [Edge](#edge)
 * [Device Firmware](#device-firmware)
 * [Command Line Tools](#command-line-tools)
 * [Integration Tools](#integration-tools)
@@ -48,6 +49,9 @@
 - [Repo (React Native)](https://github.com/lucadruda/iotc-react-native-device-client)
 - [Releases](https://www.npmjs.com/package/react-native-azure-iotcentral-client)
 - [Android Sample (Java)](https://github.com/Azure/iotc-android-sample)
+
+## Edge
+- [Industrial IoT Gateway Installer](https://github.com/Azure/Industrial-IoT-Gateway-Installer)
 
 ## Device Firmwares
 - [Repo](https://github.com/Azure/iot-central-firmware)
