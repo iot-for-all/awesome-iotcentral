@@ -63,6 +63,7 @@
 - [Device Bridge](https://github.com/Azure/iotc-device-bridge)
 - [Notification Bridge](https://github.com/lucadruda/iotc-notification-bridge)
 - [Edge enabled VM](https://github.com/iot-for-all/iotc-edgemodule-vm-deploy)
+- [Node-RED node](https://flows.nodered.org/node/node-red-contrib-azure-iot-device)
 
 ## Videos
 - [IoT Show](https://aka.ms/iotshow)
