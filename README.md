@@ -68,5 +68,8 @@
 - [Edge enabled VM](https://github.com/iot-for-all/iotc-edgemodule-vm-deploy)
 - [Node-RED node](https://flows.nodered.org/node/node-red-contrib-azure-iot-device)
 
+## Simulation Tools
+- [mock-devices](https://github.com/codetunez/mock-devices)
+
 ## Videos
 - [IoT Show](https://aka.ms/iotshow)
