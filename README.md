@@ -21,6 +21,7 @@
     * [Java](#java)
     * [Mobile](#mobile)
 * [Edge](#edge)
+* [Projects and tutorials](#projects-and-tutorials)
 * [Device Firmware](#device-firmware)
 * [Command Line Tools](#command-line-tools)
 * [Integration Tools](#integration-tools)
@@ -53,6 +54,8 @@
 ## Edge
 - [Industrial IoT Gateway Installer](https://github.com/Azure/Industrial-IoT-Gateway-Installer)
 
+## Projects and tutorials
+- [Develop with Sphere and Azure RTOS](https://docs.microsoft.com/en-us/learn/modules/develop-secure-iot-solutions-azure-sphere-iot-central/)
 ## Device Firmwares
 - [Repo](https://github.com/Azure/iot-central-firmware)
 
