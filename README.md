@@ -1,31 +1,27 @@
-<div align="center">
-	<div>
-		<img width="500" src="logo.svg" alt="Awesome Node.js">
-	</div>
-	<br>
-	<br>
-	<a href="https://awesome.re">
-		<img src="https://awesome.re/badge-flat2.svg" alt="Awesome">
-	</a>
-	<br>
-	<p>
-    Awesome <a href="https://azure.microsoft.com/en-in/services/iot-central/">Azure IoT Central</a> is an awesome style list that curates the best samples, libraries, tools, tutorials, articles and more for Azure IoT Central, Azure SaaS solution to connect, monitor and manage your IoT assets at scale.
-	</p>
-	<br>
-</div>
+<img src="./logo-only-100.png" style="float: left;">
+# Welcome to "Awesome for Azure IoT Central"!
+## We curate a list of projects and resources that help you with integrations, scenarios and nest practices for gettign the most out of Azure IoT Central.
+
+## What is Azure IoT Central?
+Azure IoT Central is an Application Platform that offers incredibly pwoerful tools ana capabilities for you to bootstrap and intgrate your IoT project scenarios running quickly with sophisticated visualizations, device management, rules engine, modeling, data exporting and much more.
 
 ## Contents
-* [SDKs and samples](#sdks-and-samples)
-    * [Python](#python)
-    * [Node.JS](#nodejs)
-    * [Java](#java)
-    * [Mobile](#mobile)
-* [Edge](#edge)
-* [Projects and tutorials](#projects-and-tutorials)
-* [Device Firmware](#device-firmware)
-* [Command Line Tools](#command-line-tools)
-* [Integration Tools](#integration-tools)
-* [Videos](#videos)
+- [Welcome to "Awesome for Azure IoT Central"!](#welcome-to-awesome-for-azure-iot-central)
+  - [We curate a list of projects and resources that help you with integrations, scenarios and nest practices for gettign the most out of Azure IoT Central.](#we-curate-a-list-of-projects-and-resources-that-help-you-with-integrations-scenarios-and-nest-practices-for-gettign-the-most-out-of-azure-iot-central)
+  - [What is Azure IoT Central?](#what-is-azure-iot-central)
+  - [Contents](#contents)
+  - [SDKs and samples](#sdks-and-samples)
+    - [Python](#python)
+    - [Node.JS](#nodejs)
+    - [Java](#java)
+    - [Mobile](#mobile)
+  - [Edge](#edge)
+  - [Projects and tutorials](#projects-and-tutorials)
+  - [Device Firmwares](#device-firmwares)
+  - [Command Line Tools](#command-line-tools)
+  - [Integration Tools](#integration-tools)
+  - [Simulation Tools](#simulation-tools)
+  - [Videos](#videos)
 
 
 ## SDKs and samples
