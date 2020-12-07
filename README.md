@@ -1,4 +1,5 @@
 <img src="./logo-only-100.png" style="float: left;">
+
 # Welcome to "Awesome for Azure IoT Central"!
 ## We curate a list of projects and resources that help you with integrations, scenarios and nest practices for gettign the most out of Azure IoT Central.
 
