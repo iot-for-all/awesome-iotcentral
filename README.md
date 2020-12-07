@@ -1,11 +1,5 @@
 # Welcome to "Awesome for Azure IoT Central"!
-
-<div>
-<img src="./logo-only-50.png" style="float: left;">
-<p>We curate a list of projects and resources that help you with integrations, scenarios and nest practices for gettign the most out of Azure IoT Central.
-</p>
-</div>
-
+We curate a list of projects and resources that help you with integrations, scenarios and nest practices for gettign the most out of Azure IoT Central.
 ## What is Azure IoT Central?
 Azure IoT Central is an Application Platform that offers incredibly pwoerful tools ana capabilities for you to bootstrap and intgrate your IoT project scenarios running quickly with sophisticated visualizations, device management, rules engine, modeling, data exporting and much more.
 
