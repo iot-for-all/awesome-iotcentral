@@ -7,8 +7,8 @@ If you are new to Azure IoT Central, we have collected up a set of links to help
 - [What is Azure IoT Central?](https://docs.microsoft.com/en-us/azure/iot-central/core/overview-iot-central)
 
 Azure Iot Central implements the date modeling language we call "IoT Plug and Play" and it is the core of the planning and design work you will do when you build your application on the platform. It can be a simple as a sensor measuring temperature to the complexity of a industrial manufacturing floor full of all varieties of equipment.
-- [What is IoT Plug and Play?](https://docs.microsoft.com/en-us/azure/iot-central/core/overview-iot-central)
-https://docs.microsoft.com/en-us/azure/iot-pnp/overview-iot-plug-and-play
+- [What is IoT Plug and Play?](https://docs.microsoft.com/en-us/azure/iot-pnp/overview-iot-plug-and-play)
+
 
 ## Contents
 - [Welcome to "Awesome for Azure IoT Central"!](#welcome-to-awesome-for-azure-iot-central)
