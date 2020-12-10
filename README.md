@@ -16,6 +16,10 @@
 
 ## Contents
 - [Contents](#contents)
+- [What is Azure IoT Central](#what-is-azure-iot-central)
+  - [Overview of Azure IoT Central](#overview-of-azure-iot-central)
+  - [Overview IoT Plug and Play](#overview-iot-plug-and-play)
+  - [Digital Twins Definition Language](#digital-twins-definition-language)
 - [SDKs and samples](#sdks-and-samples)
   - [Python](#python)
   - [Node.js](#nodejs)
@@ -29,6 +33,20 @@
 - [Simulation Tools](#simulation-tools)
 - [Videos](#videos)
 
+## What is Azure IoT Central
+Azure IoT Central is an Application Platform that offers incredibly powerful tools and capabilities for you to bootstrap and integrate your IoT projects and scenarios. It is designed to get you up and running quickly with sophisticated visualizations, device management, rules engine, modeling, data exporting and much more.
+
+### Overview of Azure IoT Central
+If you are new to Azure IoT Central, we have collected up a set of links to help you get up to speed on the high level topics and introduction to the application platform.
+- [Overview of Azure IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/core/overview-iot-central)
+
+### Overview IoT Plug and Play
+IoT Plug and Play enables solution builders to integrate smart devices with their solutions without any manual configuration. At the core of IoT Plug and Play, is a device model that a device uses to advertise its capabilities to an IoT Plug and Play-enabled application. Azure IoT Central implements the "Digital Twins Definition Language" and offers powerful modeling capabilities for building IoT solutions on the application platform. It can be a simplistic as a sensor measuring ambient temperature; to scaling up to the complexity of a industrial manufacturing floor full of diverse equipment and PLC's.
+- [Overview IoT Plug and Play](https://docs.microsoft.com/en-us/azure/iot-pnp/overview-iot-plug-and-play)
+
+### Digital Twins Definition Language
+The Digital Twins Definition Language (DTDL) is a language for describing models and interfaces for IoT digital twins.
+- [Digital Twins Definition Language](https://github.com/Azure/opendigitaltwins-dtdl)
 
 ## SDKs and samples
 
