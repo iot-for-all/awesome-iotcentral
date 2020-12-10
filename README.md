@@ -36,46 +36,36 @@
 
 ## What is Azure IoT Central
 Azure IoT Central is an Application Platform that offers incredibly powerful tools and capabilities for you to bootstrap and integrate your IoT projects and scenarios. It is designed to get you up and running quickly with sophisticated visualizations, device management, rules engine, modeling, data exporting and much more.
-
 ### Overview of Azure IoT Central
 If you are new to Azure IoT Central, we have collected up a set of links to help you get up to speed on the high level topics and introduction to the application platform.
 - [Overview of Azure IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/core/overview-iot-central)
-
 ### Overview of IoT Plug and Play
 IoT Plug and Play enables solution builders to integrate smart devices with their solutions without any manual configuration. At the core of IoT Plug and Play, is a device model that a device uses to advertise its capabilities to an IoT Plug and Play-enabled application. Azure IoT Central implements the "Digital Twins Definition Language" and offers powerful modeling capabilities for building IoT solutions on the application platform. It can be a simplistic as a sensor measuring ambient temperature; to scaling up to the complexity of a industrial manufacturing floor full of diverse equipment and PLC's.
 - [Overview IoT Plug and Play](https://docs.microsoft.com/en-us/azure/iot-pnp/overview-iot-plug-and-play)
-
 ### Digital Twins Definition Language
 The Digital Twins Definition Language (DTDL) is a language for describing models and interfaces for IoT digital twins.
 - [Digital Twins Definition Language](https://github.com/Azure/opendigitaltwins-dtdl)
-
 ### Connect Azure IoT Edge Devices
 Get started connecting Edge Devices to Azure IoT Central
-- [Digital Twins Definition Language](https://github.com/Azure/opendigitaltwins-dtdl)
-
+- [Connect Azure IoT Edge Devices to an Azure IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/core/concepts-iot-edge)
 ## SDKs and samples
-
 ### Python
 - [Repo with samples](https://github.com/iot-for-all/iotc-python-client)
 - [Releases](https://pypi.org/project/iotc/)
 - [Device Sample](https://github.com/iot-for-all/Iot_Central_Python_Sample)
 - [Docs](https://docs.microsoft.com/en-us/azure/iot-central/core/tutorial-connect-device-python)
-
 ### Node.js
 - [Repo with samples](https://github.com/lucadruda/iotc-nodejs-device-client)
 - [Releases](https://www.npmjs.com/package/azure-iotcentral-device-client)
 - [Docs](https://docs.microsoft.com/en-us/azure/iot-central/core/tutorial-connect-device-nodejs)
-
 ### Java
 - [Repo](https://github.com/lucadruda/iotc-java-device-client)
 - [Samples](https://github.com/lucadruda/iotc-samples/tree/master/java)
 - [Releases](https://search.maven.org/artifact/com.github.lucadruda/iotc-java-device-client)
-
 ### Mobile
 - [Repo (React Native)](https://github.com/lucadruda/iotc-react-native-device-client)
 - [Releases](https://www.npmjs.com/package/react-native-azure-iotcentral-client)
 - [Android Sample (Java)](https://github.com/Azure/iotc-android-sample)
-
 ## Edge
 Tutorial that demonstrates the scenario of deploying a simulated temperature sensor edge module.
 - [Azure IoT Edge on Kubernetes Connnected to IoT Central](https://microsoft.github.io/iotedge-k8s-doc/examples/iotcentraltutorial.html)
