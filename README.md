@@ -1,8 +1,23 @@
-# Welcome to "Awesome for Azure IoT Central"!
-We curate a list of projects and resources that help you with integrations, scenarios and best practices for getting the most out of Azure IoT Central.
-## What is Azure IoT Central?
-Azure IoT Central is an Application Platform that offers incredibly powerful tools and capabilities for you to bootstrap and integrate your IoT projects and scenarios. It is designed to get you up and running quickly with sophisticated visualizations, device management, rules engine, modeling, data exporting and much more.
+<div align="center">
+	<div>
+		<img width="500" src="logo.svg" alt="Awesome Node.js">
+	</div>
+	<br>
+	<br>
+	<a href="https://awesome.re">
+		<img src="https://awesome.re/badge-flat2.svg" alt="Awesome">
+	</a>
+	<br>
+	<p>
+    Awesome <a href="https://azure.microsoft.com/en-us/services/iot-central/">Azure IoT Central</a> is an awesome style list that curates the best samples, libraries, tools, tutorials, articles and more for Azure IoT Central.
+	</p>
+	<p>
+    Azure IoT Central is an Application Platform that offers incredibly powerful tools and capabilities for you to bootstrap and integrate your IoT projects and scenarios. It is designed to get you up and running quickly with sophisticated visualizations, device management, rules engine, modeling, data exporting and much more.
+	</p>
+	<br>
+</div>
 
+## What is Azure IoT Central?
 If you are new to Azure IoT Central, we have collected up a set of links to help you get up to speed on the high level topics and introduction to the application platform...
 - [What is Azure IoT Central?](https://docs.microsoft.com/en-us/azure/iot-central/core/overview-iot-central)
 
@@ -11,21 +26,20 @@ Azure Iot Central implements the date modeling language we call "IoT Plug and Pl
 
 
 ## Contents
-- [Welcome to "Awesome for Azure IoT Central"!](#welcome-to-awesome-for-azure-iot-central)
-  - [What is Azure IoT Central?](#what-is-azure-iot-central)
-  - [Contents](#contents)
-  - [SDKs and samples](#sdks-and-samples)
-    - [Python](#python)
-    - [Node.JS](#nodejs)
-    - [Java](#java)
-    - [Mobile](#mobile)
-  - [Edge](#edge)
-  - [Projects and tutorials](#projects-and-tutorials)
-  - [Device Firmwares](#device-firmwares)
-  - [Command Line Tools](#command-line-tools)
-  - [Integration Tools](#integration-tools)
-  - [Simulation Tools](#simulation-tools)
-  - [Videos](#videos)
+- [What is Azure IoT Central?](#what-is-azure-iot-central)
+- [Contents](#contents)
+- [SDKs and samples](#sdks-and-samples)
+  - [Python](#python)
+  - [Node.JS](#nodejs)
+  - [Java](#java)
+  - [Mobile](#mobile)
+- [Edge](#edge)
+- [Projects and tutorials](#projects-and-tutorials)
+- [Device Firmwares](#device-firmwares)
+- [Command Line Tools](#command-line-tools)
+- [Integration Tools](#integration-tools)
+- [Simulation Tools](#simulation-tools)
+- [Videos](#videos)
 
 
 ## SDKs and samples
