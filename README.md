@@ -1,6 +1,6 @@
 <div align="center">
 	<div>
-		<img width="500" src="logo.svg" alt="Awesome Node.js">
+		<img width="500" src="logo-only-100.png" alt="Awesome Node.js">
 	</div>
 	<br>
 	<br>
