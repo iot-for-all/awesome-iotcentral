@@ -18,8 +18,9 @@
 - [Contents](#contents)
 - [What is Azure IoT Central](#what-is-azure-iot-central)
   - [Overview of Azure IoT Central](#overview-of-azure-iot-central)
-  - [Overview IoT Plug and Play](#overview-iot-plug-and-play)
+  - [Overview of IoT Plug and Play](#overview-of-iot-plug-and-play)
   - [Digital Twins Definition Language](#digital-twins-definition-language)
+  - [Connect Azure IoT Edge Devices](#connect-azure-iot-edge-devices)
 - [SDKs and samples](#sdks-and-samples)
   - [Python](#python)
   - [Node.js](#nodejs)
@@ -40,12 +41,16 @@ Azure IoT Central is an Application Platform that offers incredibly powerful too
 If you are new to Azure IoT Central, we have collected up a set of links to help you get up to speed on the high level topics and introduction to the application platform.
 - [Overview of Azure IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/core/overview-iot-central)
 
-### Overview IoT Plug and Play
+### Overview of IoT Plug and Play
 IoT Plug and Play enables solution builders to integrate smart devices with their solutions without any manual configuration. At the core of IoT Plug and Play, is a device model that a device uses to advertise its capabilities to an IoT Plug and Play-enabled application. Azure IoT Central implements the "Digital Twins Definition Language" and offers powerful modeling capabilities for building IoT solutions on the application platform. It can be a simplistic as a sensor measuring ambient temperature; to scaling up to the complexity of a industrial manufacturing floor full of diverse equipment and PLC's.
 - [Overview IoT Plug and Play](https://docs.microsoft.com/en-us/azure/iot-pnp/overview-iot-plug-and-play)
 
 ### Digital Twins Definition Language
 The Digital Twins Definition Language (DTDL) is a language for describing models and interfaces for IoT digital twins.
+- [Digital Twins Definition Language](https://github.com/Azure/opendigitaltwins-dtdl)
+
+### Connect Azure IoT Edge Devices
+Get started connecting Edge Devices to Azure IoT Central
 - [Digital Twins Definition Language](https://github.com/Azure/opendigitaltwins-dtdl)
 
 ## SDKs and samples
@@ -72,24 +77,23 @@ The Digital Twins Definition Language (DTDL) is a language for describing models
 - [Android Sample (Java)](https://github.com/Azure/iotc-android-sample)
 
 ## Edge
+Tutorial that demonstrates the scenario of deploying a simulated temperature sensor edge module.
+- [Azure IoT Edge on Kubernetes Connnected to IoT Central](https://microsoft.github.io/iotedge-k8s-doc/examples/iotcentraltutorial.html)
+- [Azure IoT Central Edge Hands On Labs With Edge Enabled MarketPlace Linux VM](https://github.com/rangv/azureiotcentraledgelinux)
+- [Azure IoT Edge on CentOS Connnected to IoT Central](https://rangv.github.io/azureiotedgewithcentralcentos/)
 - [Industrial IoT Gateway Installer](https://github.com/Azure/Industrial-IoT-Gateway-Installer)
-
 ## Projects and tutorials
 - [Develop with Sphere and Azure RTOS](https://docs.microsoft.com/en-us/learn/modules/develop-secure-iot-solutions-azure-sphere-iot-central/)
 ## Device Firmwares
 - [Repo](https://github.com/Azure/iot-central-firmware)
-
 ## Command Line Tools
 - [Azure CLI IoT Extension](https://github.com/Azure/azure-iot-cli-extension#microsoft-azure-iot-extension-for-azure-cli)
-
 ## Integration Tools
 - [Device Bridge](https://github.com/Azure/iotc-device-bridge)
 - [Notification Bridge](https://github.com/lucadruda/iotc-notification-bridge)
 - [Edge enabled VM](https://github.com/iot-for-all/iotc-edgemodule-vm-deploy)
 - [Node-RED node](https://flows.nodered.org/node/node-red-contrib-azure-iot-device)
-
 ## Simulation Tools
 - [mock-devices](https://github.com/codetunez/mock-devices)
-
 ## Videos
 - [IoT Show](https://aka.ms/iotshow)
