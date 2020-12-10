@@ -15,17 +15,19 @@
 </div>
 
 ## Contents
-* [SDKs and samples](#sdks-and-samples)
-    * [Python](#python)
-    * [Node.JS](#nodejs)
-    * [Java](#java)
-    * [Mobile](#mobile)
-* [Edge](#edge)
-* [Projects and tutorials](#projects-and-tutorials)
-* [Device Firmware](#device-firmware)
-* [Command Line Tools](#command-line-tools)
-* [Integration Tools](#integration-tools)
-* [Videos](#videos)
+- [Contents](#contents)
+- [SDKs and samples](#sdks-and-samples)
+  - [Python](#python)
+  - [Node.js](#nodejs)
+  - [Java](#java)
+  - [Mobile](#mobile)
+- [Edge](#edge)
+- [Projects and tutorials](#projects-and-tutorials)
+- [Device Firmwares](#device-firmwares)
+- [Command Line Tools](#command-line-tools)
+- [Integration Tools](#integration-tools)
+- [Simulation Tools](#simulation-tools)
+- [Videos](#videos)
 
 
 ## SDKs and samples
@@ -36,7 +38,7 @@
 - [Device Sample](https://github.com/iot-for-all/Iot_Central_Python_Sample)
 - [Docs](https://docs.microsoft.com/en-us/azure/iot-central/core/tutorial-connect-device-python)
 
-### Node.JS
+### Node.js
 - [Repo with samples](https://github.com/lucadruda/iotc-nodejs-device-client)
 - [Releases](https://www.npmjs.com/package/azure-iotcentral-device-client)
 - [Docs](https://docs.microsoft.com/en-us/azure/iot-central/core/tutorial-connect-device-nodejs)
