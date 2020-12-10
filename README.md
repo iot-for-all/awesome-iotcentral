@@ -67,7 +67,6 @@ Get started connecting Edge Devices to Azure IoT Central
 - [Releases](https://www.npmjs.com/package/react-native-azure-iotcentral-client)
 - [Android Sample (Java)](https://github.com/Azure/iotc-android-sample)
 ## Edge
-Tutorial that demonstrates the scenario of deploying a simulated temperature sensor edge module.
 - [Azure IoT Edge on Kubernetes Connnected to IoT Central](https://microsoft.github.io/iotedge-k8s-doc/examples/iotcentraltutorial.html)
 - [Azure IoT Central Edge Hands On Labs With Edge Enabled MarketPlace Linux VM](https://github.com/rangv/azureiotcentraledgelinux)
 - [Azure IoT Edge on CentOS Connnected to IoT Central](https://rangv.github.io/azureiotedgewithcentralcentos/)
