@@ -66,10 +66,11 @@ Get started connecting Edge Devices to Azure IoT Central
 - [Repo (React Native)](https://github.com/lucadruda/iotc-react-native-device-client)
 - [Releases](https://www.npmjs.com/package/react-native-azure-iotcentral-client)
 - [Android Sample (Java)](https://github.com/Azure/iotc-android-sample)
+- [Continuous Patient Monitoring Sample](https://github.com/iot-for-all/iotc-cpm-sample)
 ## Edge
-- [Azure IoT Edge on Kubernetes Connnected to IoT Central](https://microsoft.github.io/iotedge-k8s-doc/examples/iotcentraltutorial.html)
+- [Azure IoT Edge on Kubernetes Connected to IoT Central](https://microsoft.github.io/iotedge-k8s-doc/examples/iotcentraltutorial.html)
 - [Azure IoT Central Edge Hands On Labs With Edge Enabled MarketPlace Linux VM](https://github.com/rangv/azureiotcentraledgelinux)
-- [Azure IoT Edge on CentOS Connnected to IoT Central](https://rangv.github.io/azureiotedgewithcentralcentos/)
+- [Azure IoT Edge on CentOS Connected to IoT Central](https://rangv.github.io/azureiotedgewithcentralcentos/)
 - [Industrial IoT Gateway Installer](https://github.com/Azure/Industrial-IoT-Gateway-Installer)
 ## Projects and tutorials
 - [Develop with Sphere and Azure RTOS](https://docs.microsoft.com/en-us/learn/modules/develop-secure-iot-solutions-azure-sphere-iot-central/)
