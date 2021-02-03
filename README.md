@@ -72,6 +72,7 @@ Get started connecting Edge Devices to Azure IoT Central
 - [Azure IoT Central Edge Hands On Labs With Edge Enabled MarketPlace Linux VM](https://github.com/rangv/azureiotcentraledgelinux)
 - [Azure IoT Edge on CentOS Connected to IoT Central](https://rangv.github.io/azureiotedgewithcentralcentos/)
 - [Industrial IoT Gateway Installer](https://github.com/Azure/Industrial-IoT-Gateway-Installer)
+- [Azure IoT Edge for Linux on Windows (EFLOW) with IoT Central](https://github.com/rangv/AzureIoTCentralEFlow)
 ## Mobile Integrations
 - [Continuous Patient Monitoring Sample](https://github.com/iot-for-all/iotc-cpm-sample)
 ## Projects and tutorials
