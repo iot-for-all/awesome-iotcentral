@@ -77,6 +77,7 @@ Get started connecting Edge Devices to Azure IoT Central
 - [Continuous Patient Monitoring Sample](https://github.com/iot-for-all/iotc-cpm-sample)
 ## Projects and tutorials
 - [Develop with Sphere and Azure RTOS](https://docs.microsoft.com/en-us/learn/modules/develop-secure-iot-solutions-azure-sphere-iot-central/)
+- [Azure IoT Central Public API Authentication and Authorization](https://github.com/iot-for-all/iotc-aad-setup)
 ## Device Firmwares
 - [Repo](https://github.com/Azure/iot-central-firmware)
 ## Command Line Tools
