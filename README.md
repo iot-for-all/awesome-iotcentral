@@ -1,93 +1,71 @@
-<div align="center">
-	<div>
-		<img width="500" src="logo.svg" alt="Awesome Node.js">
-	</div>
-	<br>
-	<br>
-	<a href="https://awesome.re">
-		<img src="https://awesome.re/badge-flat2.svg" alt="Awesome">
-	</a>
-	<br>
-	<p>
-    Awesome <a href="https://azure.microsoft.com/en-in/services/iot-central/">Azure IoT Central</a> is an awesome style list that curates the best samples, libraries, tools, tutorials, articles and more for Azure IoT Central, Azure SaaS solution to connect, monitor and manage your IoT assets at scale.
-	</p>
-	<br>
-</div>
+# Awesome IoT Central [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+Useful resources for creating solutions with [IoT Central](https://aka.ms/iotcentral) that make you say "Wow, this is amazing!"
 
-## Contents
-- [Contents](#contents)
-- [What is Azure IoT Central](#what-is-azure-iot-central)
-  - [Overview of Azure IoT Central](#overview-of-azure-iot-central)
-  - [Overview of IoT Plug and Play](#overview-of-iot-plug-and-play)
-  - [Digital Twins Definition Language](#digital-twins-definition-language)
-  - [Connect Azure IoT Edge Devices](#connect-azure-iot-edge-devices)
-- [SDKs and samples](#sdks-and-samples)
-  - [Python](#python)
-  - [Node.js](#nodejs)
-  - [Java](#java)
-  - [Mobile](#mobile)
-- [Edge](#edge)
-- [Mobile Integrations](#mobile-integrations)
-- [Projects and tutorials](#projects-and-tutorials)
-- [Device Firmwares](#device-firmwares)
-- [Command Line Tools](#command-line-tools)
-- [Integration Tools](#integration-tools)
-- [Simulation Tools](#simulation-tools)
-- [Videos](#videos)
+## guidance
+- [iot-central-integration-guide](https://github.com/iot-for-all/iot-central-integration-guide#companion-apps--experiences) - ***PRIVATE*** integration patterns and samples for using IoT Central as part of your overall IoT architecture
+- [iot-central-aad-setup](https://github.com/iot-for-all/iot-central-aad-setup) - guidance on setting up an Azure Active Directory application to work with IoT Central 
 
-## What is Azure IoT Central
-Azure IoT Central is an Application Platform that offers incredibly powerful tools and capabilities for you to bootstrap and integrate your IoT projects and scenarios. It is designed to get you up and running quickly with sophisticated visualizations, device management, rules engine, modeling, data exporting and much more.
-### Overview of Azure IoT Central
-If you are new to Azure IoT Central, we have collected up a set of links to help you get up to speed on the high level topics and introduction to the application platform.
+## learning paths
+- [companion-experiences-learning](https://github.com/iot-for-all/companion-experiences-learning) - ***PRIVATE*** walks through building companion experiences with IoT Central 
+
+## connecting devices
+- [iot-central-web-mqtt-device](https://github.com/iot-for-all/iot-central-web-mqtt-device) - simple device ran in a web browser able to do bi-directional communication with IoT Central
+- [iot_central_python_sample](https://github.com/iot-for-all/Iot_Central_Python_Sample) - simple sample device written in Python able to do bi-directional communication with IoT Central
+- [mock-devices](https://github.com/codetunez/mock-devices) - simulates 1 to 1000 devices, gateways, nested devices, and [Azure IoT Edge](https://github.com/Azure/iotedge) with interactive bi-directional communication with IoT Central 
+- [starling](https://github.com/iot-for-all/starling) - simulates tens of thousands of devices connecting to and communicating with IoT Central and displays health metrics using Prometheus and Grafana
+- [iotc-paad](https://github.com/iot-for-all/iotc-paad) - ***PRIVATE*** app that uses your phone as a device in IoT Central
+- [iotc-cpm-sample](https://github.com/iot-for-all/iotc-cpm-sample) - a sample application written in React-Native to connect Bluetooth Low-Energy (BLE) devices to Azure IoT Central
+- [iotc-edgemodule-vm-deploy](https://github.com/iot-for-all/iotc-edgemodule-vm-deploy) - an ARM Template to deploy IoT Edge enabled VM pre-configured for an IoT Central edge module
+- [iot-central-batch-telemetry-with-python](https://github.com/iot-for-all/iot-central-batch-telemetry-with-python) - sample showing batching telemetry messages using Python device SDK
+- [iotc-micropython-client](https://github.com/iot-for-all/iotc-micropython-client) - a micropython SDK for connecting devices to IoT Central
+- [iotc-python-client](https://github.com/iot-for-all/iotc-python-client) - a Python SDK for connecting devices to IoT Central
+- [iotc-file-upload-device](https://github.com/iot-for-all/iotc-file-upload-device) - shows how a device can upload a file to the cloud using IoT Central
+
+## testing devices
+- [iotc-twinviewer](https://github.com/iot-for-all/iotc-twinviewer) - ***PRIVATE*** tool to view current state of the device twin
+- [azure-iot-cli-extension](https://github.com/Azure/azure-iot-cli-extension#microsoft-azure-iot-extension-for-azure-cli) - command line tool for debugging device/cloud messaging
+
+## companion experiences
+- [contoso-drive-support](https://github.com/iot-for-all/contoso-drive-support) - ***PRIVATE*** an IoT Central companion experience that demonstrates how to build a custom web app for a support technician operating a fleet management solution
+- [contoso-drive-simulator](https://github.com/iot-for-all/contoso-drive-simulator) - ***PRIVATE*** an IoT Central companion experience that demonstrates how to build a web app that does device simulation (use with the Contoso-Drive Support application)
+- [iot-central-aad-app](https://github.com/iot-for-all/iot-central-aad-app) - authenticate and use IoT Central control and data plane APIs
+- [iotc-go](https://github.com/iot-for-all/iotc-go) - demonstrates using the IoT Central APIs in a Golang command-line tool
+
+## transformation
+- [Azure/iotc-device-bridge](https://github.com/Azure/iotc-device-bridge) - runnable as an Azure Function or Container, it transforms and sends unidirectional data using HTTP in cloud-to-cloud integrations with IoT Central
+- [iotc-device-bridge](https://github.com/iot-for-all/iotc-device-bridge) - transforms and does bi-directional communication using AMQP in cloud-to-cloud integrations with IoT Central
+- [iot-central-transform-with-device-bridge](https://github.com/iot-for-all/iot-central-transform-with-device-bridge) - ***PRIVATE*** a more complete sample of using iotc-device-bridge to transform and send data to IoT Central
+- [iot-central-transform-with-iot-edge](https://github.com/iot-for-all/iot-central-transform-with-iot-edge) - ***PRIVATE*** uses Azure IoT Edge to transform and send data to IoT Central
+
+## compute
+- [iot-central-compute](https://github.com/iot-for-all/iot-central-compute) - a simple way to do compute and data transformation on data sent to Azure IoT Central using Azure Functions
+
+
+## miscellaneous
 - [Overview of Azure IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/core/overview-iot-central)
-### Overview of IoT Plug and Play
-IoT Plug and Play enables solution builders to integrate smart devices with their solutions without any manual configuration. At the core of IoT Plug and Play, is a device model that a device uses to advertise its capabilities to an IoT Plug and Play-enabled application. Azure IoT Central implements the "Digital Twins Definition Language" and offers powerful modeling capabilities for building IoT solutions on the application platform. It can be a simplistic as a sensor measuring ambient temperature; to scaling up to the complexity of a industrial manufacturing floor full of diverse equipment and PLC's.
 - [Overview IoT Plug and Play](https://docs.microsoft.com/en-us/azure/iot-pnp/overview-iot-plug-and-play)
-### Digital Twins Definition Language
-The Digital Twins Definition Language (DTDL) is a language for describing models and interfaces for IoT digital twins.
 - [Digital Twins Definition Language](https://github.com/Azure/opendigitaltwins-dtdl)
-### Connect Azure IoT Edge Devices
-Get started connecting Edge Devices to Azure IoT Central
 - [Connect Azure IoT Edge Devices to an Azure IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/core/concepts-iot-edge)
-## SDKs and samples
-### Python
-- [Repo with samples](https://github.com/iot-for-all/iotc-python-client)
-- [Releases](https://pypi.org/project/iotc/)
-- [Device Sample](https://github.com/iot-for-all/Iot_Central_Python_Sample)
-- [Docs](https://docs.microsoft.com/en-us/azure/iot-central/core/tutorial-connect-device-python)
-### Node.js
-- [Repo with samples](https://github.com/lucadruda/iotc-nodejs-device-client)
-- [Releases](https://www.npmjs.com/package/azure-iotcentral-device-client)
-- [Docs](https://docs.microsoft.com/en-us/azure/iot-central/core/tutorial-connect-device-nodejs)
-### Java
-- [Repo](https://github.com/lucadruda/iotc-java-device-client)
-- [Samples](https://github.com/lucadruda/iotc-samples/tree/master/java)
-- [Releases](https://search.maven.org/artifact/com.github.lucadruda/iotc-java-device-client)
-### Mobile
-- [Repo (React Native)](https://github.com/lucadruda/iotc-react-native-device-client)
-- [Releases](https://www.npmjs.com/package/react-native-azure-iotcentral-client)
-- [Android Sample (Java)](https://github.com/Azure/iotc-android-sample)
-## Edge
-- [Azure IoT Edge on Kubernetes Connected to IoT Central](https://microsoft.github.io/iotedge-k8s-doc/examples/iotcentraltutorial.html)
-- [Azure IoT Central Edge Hands On Labs With Edge Enabled MarketPlace Linux VM](https://github.com/rangv/azureiotcentraledgelinux)
-- [Azure IoT Edge on CentOS Connected to IoT Central](https://rangv.github.io/azureiotedgewithcentralcentos/)
-- [Industrial IoT Gateway Installer](https://github.com/Azure/Industrial-IoT-Gateway-Installer)
-- [Azure IoT Edge for Linux on Windows (EFLOW) with IoT Central](https://github.com/rangv/AzureIoTCentralEFlow)
-## Mobile Integrations
-- [Continuous Patient Monitoring Sample](https://github.com/iot-for-all/iotc-cpm-sample)
-## Projects and tutorials
-- [Develop with Sphere and Azure RTOS](https://docs.microsoft.com/en-us/learn/modules/develop-secure-iot-solutions-azure-sphere-iot-central/)
-- [Azure IoT Central Public API Authentication and Authorization](https://github.com/iot-for-all/iotc-aad-setup)
-## Device Firmwares
-- [Repo](https://github.com/Azure/iot-central-firmware)
-## Command Line Tools
-- [Azure CLI IoT Extension](https://github.com/Azure/azure-iot-cli-extension#microsoft-azure-iot-extension-for-azure-cli)
-## Integration Tools
-- [Device Bridge](https://github.com/Azure/iotc-device-bridge)
+- [Repo with samples](https://github.com/iot-for-all/iotc-python-client) - Python SDKs and samples
+- [Releases](https://pypi.org/project/iotc/) - Python SDKs and samples
+- [Device Sample](https://github.com/iot-for-all/Iot_Central_Python_Sample) - Python SDKs and samples
+- [Docs](https://docs.microsoft.com/en-us/azure/iot-central/core/tutorial-connect-device-python) - Python SDKs and samples
+- [Repo with samples](https://github.com/lucadruda/iotc-nodejs-device-client) - Node.js SDKs and samples
+- [Releases](https://www.npmjs.com/package/azure-iotcentral-device-client) - Node.js SDKs and samples
+- [Docs](https://docs.microsoft.com/en-us/azure/iot-central/core/tutorial-connect-device-nodejs) - Node.js SDKs and samples
+- [Repo](https://github.com/lucadruda/iotc-java-device-client) - Java SDKs and samples
+- [Samples](https://github.com/lucadruda/iotc-samples/tree/master/java) - Java SDKs and samples
+- [Releases](https://search.maven.org/artifact/com.github.lucadruda/iotc-java-device-client) - Java SDKs and samples
+- [Repo (React Native)](https://github.com/lucadruda/iotc-react-native-device-client) - Mobile device
+- [Releases](https://www.npmjs.com/package/react-native-azure-iotcentral-client) - Mobile device
+- [Android Sample (Java)](https://github.com/Azure/iotc-android-sample) - Mobile device
+- [Azure IoT Edge on Kubernetes Connected to IoT Central](https://microsoft.github.io/iotedge-k8s-doc/examples/iotcentraltutorial.html) - Edge
+- [Azure IoT Central Edge Hands On Labs With Edge Enabled MarketPlace Linux VM](https://github.com/rangv/azureiotcentraledgelinux) - Edge
+- [Azure IoT Edge on CentOS Connected to IoT Central](https://rangv.github.io/azureiotedgewithcentralcentos/) - Edge
+- [Industrial IoT Gateway Installer](https://github.com/Azure/Industrial-IoT-Gateway-Installer) - Edge
+- [Azure IoT Edge for Linux on Windows (EFLOW) with IoT Central](https://github.com/rangv/AzureIoTCentralEFlow) - Edge
+- [Develop with Sphere and Azure RTOS](https://docs.microsoft.com/en-us/learn/modules/develop-secure-iot-solutions-azure-sphere-iot-central/) - Sphere tutorial
+- [Repo](https://github.com/Azure/iot-central-firmware) - device firmware
+- [IoT Show](https://aka.ms/iotshow) - videos
 - [Notification Bridge](https://github.com/lucadruda/iotc-notification-bridge)
-- [Edge enabled VM](https://github.com/iot-for-all/iotc-edgemodule-vm-deploy)
 - [Node-RED node](https://flows.nodered.org/node/node-red-contrib-azure-iot-device)
-## Simulation Tools
-- [mock-devices](https://github.com/codetunez/mock-devices)
-## Videos
-- [IoT Show](https://aka.ms/iotshow)
