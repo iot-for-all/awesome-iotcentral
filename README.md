@@ -6,7 +6,7 @@ Useful resources for creating solutions with [IoT Central](https://aka.ms/iotcen
 - [iot-central-aad-setup](https://github.com/iot-for-all/iot-central-aad-setup) - guidance on setting up an Azure Active Directory application to work with IoT Central 
 
 ## learning paths
-- [companion-experiences-learning](https://github.com/iot-for-all/companion-experiences-learning) - ***PRIVATE*** walks through building companion experiences with IoT Central 
+- [companion-experiences-learning](https://github.com/iot-for-all/companion-experiences-learning) - walks through building companion experiences with IoT Central 
 
 ## connecting devices
 - [iot-central-web-mqtt-device](https://github.com/iot-for-all/iot-central-web-mqtt-device) - simple device ran in a web browser able to do bi-directional communication with IoT Central
@@ -26,8 +26,8 @@ Useful resources for creating solutions with [IoT Central](https://aka.ms/iotcen
 - [azure-iot-cli-extension](https://github.com/Azure/azure-iot-cli-extension#microsoft-azure-iot-extension-for-azure-cli) - command line tool for debugging device/cloud messaging
 
 ## companion experiences
-- [contoso-drive-support](https://github.com/iot-for-all/contoso-drive-support) - ***PRIVATE*** an IoT Central companion experience that demonstrates how to build a custom web app for a support technician operating a fleet management solution
-- [contoso-drive-simulator](https://github.com/iot-for-all/contoso-drive-simulator) - ***PRIVATE*** an IoT Central companion experience that demonstrates how to build a web app that does device simulation (use with the Contoso-Drive Support application)
+- [contoso-drive-support](https://github.com/iot-for-all/contoso-drive-support) - an IoT Central companion experience that demonstrates how to build a custom web app for a support technician operating a fleet management solution
+- [contoso-drive-simulator](https://github.com/iot-for-all/contoso-drive-simulator) - an IoT Central companion experience that demonstrates how to build a web app that does device simulation (use with the Contoso-Drive Support application)
 - [iot-central-aad-app](https://github.com/iot-for-all/iot-central-aad-app) - authenticate and use IoT Central control and data plane APIs
 - [iotc-go](https://github.com/iot-for-all/iotc-go) - demonstrates using the IoT Central APIs in a Golang command-line tool
 
