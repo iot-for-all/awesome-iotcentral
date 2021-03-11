@@ -2,7 +2,7 @@
 Useful resources for creating solutions with [IoT Central](https://aka.ms/iotcentral) that make you say "Wow, this is amazing!"
 
 ## guidance
-- [iot-central-integration-guide](https://github.com/iot-for-all/iot-central-integration-guide) - ***PRIVATE*** integration patterns and samples for using IoT Central as part of your overall IoT architecture
+- [iot-central-integration-guide](https://github.com/iot-for-all/iot-central-integration-guide) - integration patterns and samples for using IoT Central as part of your overall IoT architecture
 - [iot-central-aad-setup](https://github.com/iot-for-all/iot-central-aad-setup) - guidance on setting up an Azure Active Directory application to work with IoT Central 
 
 ## learning paths
@@ -22,7 +22,7 @@ Useful resources for creating solutions with [IoT Central](https://aka.ms/iotcen
 - [iotc-file-upload-device](https://github.com/iot-for-all/iotc-file-upload-device) - shows how a device can upload a file to the cloud using IoT Central
 
 ## testing devices
-- [iotc-twinviewer](https://github.com/iot-for-all/iotc-twinviewer) - ***PRIVATE*** tool to view current state of the device twin
+- [iotc-twinviewer](https://github.com/iot-for-all/iotc-twinviewer) - tool to view current state of the device twin
 - [azure-iot-cli-extension](https://github.com/Azure/azure-iot-cli-extension#microsoft-azure-iot-extension-for-azure-cli) - command line tool for debugging device/cloud messaging
 
 ## companion experiences
