@@ -2,7 +2,7 @@
 Useful resources for creating solutions with [IoT Central](https://aka.ms/iotcentral) that make you say "Wow, this is amazing!"
 
 ## guidance
-- [iot-central-integration-guide](https://github.com/iot-for-all/iot-central-integration-guide#companion-apps--experiences) - ***PRIVATE*** integration patterns and samples for using IoT Central as part of your overall IoT architecture
+- [iot-central-integration-guide](https://github.com/iot-for-all/iot-central-integration-guide) - ***PRIVATE*** integration patterns and samples for using IoT Central as part of your overall IoT architecture
 - [iot-central-aad-setup](https://github.com/iot-for-all/iot-central-aad-setup) - guidance on setting up an Azure Active Directory application to work with IoT Central 
 
 ## learning paths
