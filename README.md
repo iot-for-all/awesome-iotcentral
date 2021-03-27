@@ -9,6 +9,7 @@ Useful resources for creating solutions with [IoT Central](https://aka.ms/iotcen
 - [companion-experiences-learning](https://github.com/iot-for-all/companion-experiences-learning) - walks through building companion experiences with IoT Central 
 
 ## connecting devices
+- [Adafruit_CircuitPython_AzureIoT](https://github.com/adafruit/Adafruit_CircuitPython_AzureIoT/) - Azure IoT Central (and Hub) device library for CircuitPython
 - [iot-central-web-mqtt-device](https://github.com/iot-for-all/iot-central-web-mqtt-device) - simple device ran in a web browser able to do bi-directional communication with IoT Central
 - [iot_central_python_sample](https://github.com/iot-for-all/Iot_Central_Python_Sample) - simple sample device written in Python able to do bi-directional communication with IoT Central
 - [mock-devices](https://github.com/codetunez/mock-devices) - simulates 1 to 1000 devices, gateways, nested devices, and [Azure IoT Edge](https://github.com/Azure/iotedge) with interactive bi-directional communication with IoT Central 
