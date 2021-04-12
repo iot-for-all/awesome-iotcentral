@@ -7,8 +7,10 @@ Useful resources for creating solutions with [IoT Central](https://aka.ms/iotcen
 
 ## learning paths
 - [companion-experiences-learning](https://github.com/iot-for-all/companion-experiences-learning) - walks through building companion experiences with IoT Central 
+- [device-observability-onthe-edge](https://github.com/iot-for-all/Device-Observability-onthe-Edge) - walks through setting up diagnostics (observability) for an IoT Edge device 
 
 ## connecting devices
+- [iot-central-high-availability-clients](https://github.com/iot-for-all/iot-central-high-availability-clients) - show coding a device to failover between IoT Hubs
 - [iot-central-web-mqtt-device](https://github.com/iot-for-all/iot-central-web-mqtt-device) - simple device ran in a web browser able to do bi-directional communication with IoT Central
 - [iot_central_python_sample](https://github.com/iot-for-all/Iot_Central_Python_Sample) - simple sample device written in Python able to do bi-directional communication with IoT Central
 - [mock-devices](https://github.com/codetunez/mock-devices) - simulates 1 to 1000 devices, gateways, nested devices, and [Azure IoT Edge](https://github.com/Azure/iotedge) with interactive bi-directional communication with IoT Central 
@@ -24,12 +26,15 @@ Useful resources for creating solutions with [IoT Central](https://aka.ms/iotcen
 ## testing devices
 - [iotc-twinviewer](https://github.com/iot-for-all/iotc-twinviewer) - tool to view current state of the device twin
 - [azure-iot-cli-extension](https://github.com/Azure/azure-iot-cli-extension#microsoft-azure-iot-extension-for-azure-cli) - command line tool for debugging device/cloud messaging
+- [saas-to-paas-and-back](https://github.com/iot-for-all/Saas-to-Paas-and-back) - ***PRIVATE*** demonstrates moving devices by sending it a new DPS id_scope
 
 ## companion experiences
 - [contoso-drive-support](https://github.com/iot-for-all/contoso-drive-support) - an IoT Central companion experience that demonstrates how to build a custom web app for a support technician operating a fleet management solution
 - [contoso-drive-simulator](https://github.com/iot-for-all/contoso-drive-simulator) - an IoT Central companion experience that demonstrates how to build a web app that does device simulation (use with the Contoso-Drive Support application)
 - [iot-central-aad-app](https://github.com/iot-for-all/iot-central-aad-app) - authenticate and use IoT Central control and data plane APIs
 - [iotc-go](https://github.com/iot-for-all/iotc-go) - demonstrates using the IoT Central APIs in a Golang command-line tool
+- [iotc-query](https://github.com/iot-for-all/iotc-query) - ***PRIVATE*** demonstrates using the query APIs currently in private preview
+- [iotc-migrator](https://github.com/iot-for-all/iotc-migrator) - ***PRIVATE*** companion experience for moving device between IoT Central applications or to a pure PaaS solution
 
 ## transformation
 - [Azure/iotc-device-bridge](https://github.com/Azure/iotc-device-bridge) - runnable as an Azure Function or Container, it transforms and sends unidirectional data using HTTP in cloud-to-cloud integrations with IoT Central
