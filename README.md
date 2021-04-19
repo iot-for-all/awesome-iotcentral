@@ -22,7 +22,7 @@ Useful resources for creating solutions with [IoT Central](https://aka.ms/iotcen
 - [iotc-micropython-client](https://github.com/iot-for-all/iotc-micropython-client) - a micropython SDK for connecting devices to IoT Central
 - [iotc-python-client](https://github.com/iot-for-all/iotc-python-client) - a Python SDK for connecting devices to IoT Central
 - [iotc-file-upload-device](https://github.com/iot-for-all/iotc-file-upload-device) - shows how a device can upload a file to the cloud using IoT Central
-- [node-red-connector-for-azure-iot-central](https://techcommunity.microsoft.com/t5/azure-iot/node-red-connector-for-azure-iot-central/m-p/1605502)
+- [node-red-connector-for-azure-iot-central](https://techcommunity.microsoft.com/t5/azure-iot/node-red-connector-for-azure-iot-central/m-p/1605502) - connect devices using Node-Red
 
 ## testing devices
 - [iotc-twinviewer](https://github.com/iot-for-all/iotc-twinviewer) - tool to view current state of the device twin
