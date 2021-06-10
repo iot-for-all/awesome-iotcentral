@@ -35,7 +35,7 @@ Useful resources for creating solutions with [IoT Central](https://aka.ms/iotcen
 - [iot-central-aad-app](https://github.com/iot-for-all/iot-central-aad-app) - authenticate and use IoT Central control and data plane APIs
 - [iotc-go](https://github.com/iot-for-all/iotc-go) - demonstrates using the IoT Central APIs in a Golang command-line tool
 - [iotc-query](https://github.com/iot-for-all/iotc-query) - ***PRIVATE*** demonstrates using the query APIs currently in private preview
-- [iotc-migrator](https://github.com/iot-for-all/iotc-migrator) - ***PRIVATE*** companion experience for moving device between IoT Central applications or to a pure PaaS solution
+- [iotc-migrator](https://github.com/iot-for-all/iotc-migrator) - companion experience for moving device between IoT Central applications or to a pure PaaS solution
 
 ## transformation
 - [Azure/iotc-device-bridge](https://github.com/Azure/iotc-device-bridge) - runnable as an Azure Function or Container, it transforms and sends unidirectional data using HTTP in cloud-to-cloud integrations with IoT Central
