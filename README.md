@@ -15,7 +15,7 @@ Useful resources for creating solutions with [IoT Central](https://aka.ms/iotcen
 - [iot_central_python_sample](https://github.com/iot-for-all/Iot_Central_Python_Sample) - simple sample device written in Python able to do bi-directional communication with IoT Central
 - [mock-devices](https://github.com/codetunez/mock-devices) - simulates 1 to 1000 devices, gateways, nested devices, and [Azure IoT Edge](https://github.com/Azure/iotedge) with interactive bi-directional communication with IoT Central 
 - [starling](https://github.com/iot-for-all/starling) - simulates tens of thousands of devices connecting to and communicating with IoT Central and displays health metrics using Prometheus and Grafana
-- [iotc-paad](https://github.com/iot-for-all/iotc-paad) - ***PRIVATE*** app that uses your phone as a device in IoT Central
+- [iotc-paad](https://github.com/iot-for-all/iotc-paad) - app that uses your phone as a device in IoT Central
 - [iotc-cpm-sample](https://github.com/iot-for-all/iotc-cpm-sample) - a sample application written in React-Native to connect Bluetooth Low-Energy (BLE) devices to Azure IoT Central
 - [iotc-edgemodule-vm-deploy](https://github.com/iot-for-all/iotc-edgemodule-vm-deploy) - an ARM Template to deploy IoT Edge enabled VM pre-configured for an IoT Central edge module
 - [iot-central-batch-telemetry-with-python](https://github.com/iot-for-all/iot-central-batch-telemetry-with-python) - sample showing batching telemetry messages using Python device SDK
@@ -42,6 +42,7 @@ Useful resources for creating solutions with [IoT Central](https://aka.ms/iotcen
 - [iotc-device-bridge](https://github.com/iot-for-all/iotc-device-bridge) - transforms and does bi-directional communication using AMQP in cloud-to-cloud integrations with IoT Central
 - [iot-central-transform-with-device-bridge](https://github.com/iot-for-all/iot-central-transform-with-device-bridge) - ***PRIVATE*** a more complete sample of using iotc-device-bridge to transform and send data to IoT Central
 - [iot-central-transform-with-iot-edge](https://github.com/iot-for-all/iot-central-transform-with-iot-edge) - ***PRIVATE*** uses Azure IoT Edge to transform and send data to IoT Central
+- [iotc-weather](https://github.com/iot-for-all/iotc-weather) - sends collected weather data from a MySQL database to an IoT Central application
 
 ## compute
 - [iot-central-compute](https://github.com/iot-for-all/iot-central-compute) - a simple way to do compute and data transformation on data sent to Azure IoT Central using Azure Functions
