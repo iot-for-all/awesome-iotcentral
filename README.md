@@ -40,6 +40,7 @@ Useful resources for creating solutions with [IoT Central](https://aka.ms/iotcen
 ## transformation
 - [Azure/iotc-device-bridge](https://github.com/Azure/iotc-device-bridge) - runnable as an Azure Function or Container, it transforms and sends unidirectional data using HTTP in cloud-to-cloud integrations with IoT Central
 - [iotc-device-bridge](https://github.com/iot-for-all/iotc-device-bridge) - transforms and does bi-directional communication using AMQP in cloud-to-cloud integrations with IoT Central
+- [iotc-industrial-adt](https://github.com/iot-for-all/iotc-industrial-adt) - A sample integration between OPCUA and Azure Digital Twins through IoT Central. It provides a mapping configuration tool and learning paths to setup required resources.
 - [iot-central-transform-with-device-bridge](https://github.com/iot-for-all/iot-central-transform-with-device-bridge) - ***PRIVATE*** a more complete sample of using iotc-device-bridge to transform and send data to IoT Central
 - [iot-central-transform-with-iot-edge](https://github.com/iot-for-all/iot-central-transform-with-iot-edge) - ***PRIVATE*** uses Azure IoT Edge to transform and send data to IoT Central
 - [iotc-weather](https://github.com/iot-for-all/iotc-weather) - sends collected weather data from a MySQL database to an IoT Central application
