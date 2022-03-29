@@ -76,3 +76,4 @@ Useful resources for creating solutions with [IoT Central](https://aka.ms/iotcen
 - [IoT Show](https://aka.ms/iotshow) - videos
 - [Notification Bridge](https://github.com/lucadruda/iotc-notification-bridge)
 - [Node-RED node](https://flows.nodered.org/node/node-red-contrib-azure-iot-device)
+- [Connect amodbus device to an Azure IoT Central via Kepware and Azure IoT Edge Gateway](https://github.com/iot-for-all/iotc-modbus-kepware-iotedge-gateway)
